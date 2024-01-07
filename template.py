@@ -12,16 +12,16 @@ list_of_files=[
     # we will be using this folder when we will be doing the ci/cd deployment, 
     # so what it will do on the commit it will direcly take to the cloud
     # git keep is the hiiden file, to be deleted later
-    f"src/{project_name}/__inti__.py", # creating a constructer file inside it __init__
+    f"src/{project_name}/__init__.py", # creating a constructer file inside it __init__
     # we need the constructer file as, line we want to write something to import from 
     # for these import operation, we need this folder as a local package, and if we want 
     # to install as a local package at that time thsi constructer file is needed 
     # whenever this constructer file is present that folder will be considered as a local package
-    f"src/{project_name}/components/__inti__.py",
-    f"src/{project_name}/utils/__inti__.py",
+    f"src/{project_name}/components/__init__.py",
+    f"src/{project_name}/utils/__init__.py",
     f"src/{project_name}/utils/common.py", #common file is used to write all the utility
-    f"src/{project_name}/logging/__inti__.py",
-    f"src/{project_name}/config/__inti__.py",
+    f"src/{project_name}/logging/__init__.py",
+    f"src/{project_name}/config/__init__.py",
     f"src/{project_name}/config/configuration.py",
     f"src/{project_name}/pipeline/__init__.py",
     f"src/{project_name}/entity/__init__.py",

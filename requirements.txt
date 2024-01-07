@@ -1,7 +1,7 @@
-transformers #i.e hugging face api
+transformers
 transformers[sentencepiece] 
 datasets
-sacrebleu #this is one of the evalaation matrix for the for text summarization, for it we use a matrix called row matrix, and to use row matrix we need this library
+sacrebleu 
 rouge_score
 py7zr
 pandas
@@ -18,5 +18,8 @@ ensure==1.0.2
 fastapi==0.78.0
 uvicorn==0.18.3
 Jinja2==3.1.2
+-e . 
 
--e . # this will install the setup.py, where we will be writing the login for local package installation code
+# sacrebleu -> #this is one of the evalaation matrix for the for text summarization, for it we use a matrix called row matrix, and to use row matrix we need this library
+# this will install the setup.py, where we will be writing the login for local 
+# package installation code, and install by command pip install -r requirements.txt

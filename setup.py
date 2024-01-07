@@ -5,11 +5,11 @@ with open("README.md", "r",encoding="utf-8") as f:
     # we have to do this as, if we wan to publish this project as a package in the PyPi
     # so this is the thing it will be published at that site(readme)
 
-__version__ ="0.0.0"
+__version__ = "0.0.0"
 
 REPO_NAME = "Text-Summarizer"
 AUTHOR_USER_NAME = "jaisehgal007"
-SRC_REPO = "textSummarizer"
+SRC_REPO = "textSummarizer" # this is installed as my local package
 AUTHOR_EMAIL = "jaisehgal511@gmail.com"
 
 setuptools.setup(
