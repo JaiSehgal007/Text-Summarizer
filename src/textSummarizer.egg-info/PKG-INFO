@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: textSummarizer
+Version: 0.0.0
+Summary: Python Package for NLP Text Summarizer application
+Home-page: https://github.com/jaisehgal007/Text-Summarizer
+Author: jaisehgal007
+Author-email: jaisehgal511@gmail.com
+Project-URL: Bug Tracker, https://github.com/jaisehgal007/Text-Summarizer/issues
+Description-Content-Type: text/markdown

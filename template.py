@@ -5,7 +5,7 @@ import logging # to log all ingormation
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:') # to create the logging screen
 
-project_name="testSummarizer"
+project_name="textSummarizer"
 
 list_of_files=[
     ".github/workflows/.gitkeep",
@@ -58,4 +58,9 @@ for filepath in list_of_files:
         logging.info(f"{filename}  is already existing ")
 
 
-# ṇow runnign this file in terminal as : python template.py
+# ṇow running this file in terminal as : python template.py
+# now creating a vitual environment
+# it is needed whenever we create a new project
+# so we create a new virtual environment on top of it
+#  for it write: conda create -n textS python=3.11 -y
+# conda is a package and environment management system
