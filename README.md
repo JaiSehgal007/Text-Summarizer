@@ -1,12 +1,2 @@
 # Text-Summarizer
-
-## Workflows
-
-1. Update the config.yaml file
-2. Update params.yaml
-3. Update Entity
-4. Update the configuration manager in src config
-5. Update the components
-6. Update the pipeline
-7. Update main.py
-8. Update app.py
+the repository contains the modular code for text summarization application, containing segregated pipelines for each phase of the model and final ci/cd deployment using github actions on AWS
